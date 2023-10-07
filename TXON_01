@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Landing Page</title>
+    <style>
+        header {
+            background-color:#FF69B4;
+            color: #00000;
+            text-align: center;
+            padding: 10px;
+        }
+         nav {
+            display: flex;
+            justify-content: center;
+        }
+        nav a {
+            text-decoration: none;
+            color: #00000;
+            margin: 0 20px;
+        }
+          main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color:#8FBC8F;
+            color: #fff;
+            position:fixed;
+            bottom:0;
+            width:100%;  
+
+        }
+        body {
+            background-image: url('image2.jpg');
+            background-size:cover;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Landing Page</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Login</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <h1>About Landing page:</h1>
+        <h3><p>A landing page is any web page that a consumer can land on, but in the marketing realm, it's usually a standalone page, distinct from your homepage or any other page, that serves a single and focused purpose. A landing page is a follow-up to any promises that you've made in your content.</p></h3>
+    </main>
+    <footer>
+        <h2>@Created By G.Geetha sri</h2>
+    </footer>
+</body>
+</html>
